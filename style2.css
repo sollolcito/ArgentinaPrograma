@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%2316ff00' fill-opacity='0.83'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+/* Header Styling  Banner fondo e icono Argentina Programa*/
+
+.header {
+   background: url('img/Lineas.jpg') no-repeat ;
+   background-size: 100%;
+   height: 678px;
+   opacity: 0.9;
+
+
+}
+.navbar {
+    opacity: 10;
+}
+.navbar img {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+
+/* Header Styling Logo Argentina Programa */
+
+.navbarmenu .logo {
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+
+.navbarmenu .logo a span:hover {
+    color: white;
+    transition: 0.8s;
+}
+
+.navbarmenu .logo a span {
+    color: red;
+    position: static;
+    padding-left: 5px;
+    padding-top: 0;
+
+}
+
+.navbarmenu .logo a:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+.navbarmenu .logo a {
+    color: #fff;
+    font-weight: 35px;
+    font-weight: 600;
+    position: static;
+    padding-left: 55px;
+}
+
+
+.opciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+
+
+}
+
+.opciones li {
+    list-style: none;
+
+
+}
+
+.opciones li a:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+
+.opciones li a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 10px
+}
+
+.opciones li:hover ul {
+    display: block;
+}
+
+.opciones li ul {
+    display: none;
+    position: fixed;
+    padding: 4px;
+    opacity: 0.9;
+
+}
+
+
+/* navbar Menu y Logo argentina Programa, Iniciar Secion Styling */
+.navbarmenu {
+    position: inherit;
+    width: 100%;
+    background: transparent;
+    font-family: 'ubuntu', sans-serif;
+
+
+
+}
+
+/* Distribuir items uniformemente
+El primer item al inicio, el último al final con el space-between */
+/* Aqui puedo poner el media para el resposive del menu */
+
+.navbarmenu .maxwidth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+/* Menu iniciar Sesion */
+.navbarmenu .menu li {
+    padding-top: 20px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbarmenu .menu li a span:hover {
+    color: white;
+    transition: 0.6s;
+}
+
+.navbarmenu .menu li a span {
+    color: red;
+
+}
+
+.navbarmenu .menu li a:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+.navbarmenu .menu li a {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* Colocacion de iconos de redes sociales */
+/* .redes .btn img {
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+
+
+} */
+/* .nav-redes .redes ul{
+    list-style: none;
+    display: inline-block;
+    padding-left: 1100px;
+    padding-bottom: 0;
+
+} */
+
+/* Section */
+/* .perfil {
+    color: #fff;
+
+}
+/*
+}  */
+
+/* About Me */
+.acerca-de {
+    background: url('img/stripe-pattern-blue-color-line-wallpaper-free-vector.jpg');
+    background-size: contain;
+    width: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 0px;
+    font-family: 'ubuntu', sans-serif;
+    margin-top: 0px;
+    opacity: 0.9;
+
+}
+
+.acerca-de h4 {
+    color: red;
+    font-size: 14px;
+    font-style: bold;
+}
+
+.about-me {
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.studies {
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.skills {
+    margin: 10px;
+}
+
+.experience {
+    margin: 10px;
+}
+
+
+/* Home section Styling */
+.perfil {
+    display: flex;
+    background: url('img/Foto\ remera\ negra_preview_rev_1.png') no-repeat left;
+    background-size: 400px;
+    height: 200px;
+    color: white;
+    min-height: 400px;
+    font-family:'ubuntu', sans-serif;
+    margin-top: 200px;
+
+}
+.perfil .max-width {
+    margin: 0px 280px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.perfil .home-content .text-1{
+    font-size: 50px;
+
+}
+.perfil .home-content .text-2{
+    font-size: 80px;
+    font-weight: 600;
+}
+.perfil .home-content .text-3{
+    font-size: 50px;
+}
+.perfil .home-content .text-3 span{
+    color: red;
+}
+
+
+/* Media querrys */
+
+
+/* pagina white */
+.separador {
+    background-image: url('img/34570.jpg') ;
+    background-size: cover;
+    height: 8px;
+}
+
+/* seccion about */
+.about {
+    background-image: url('img/Lineas\ horizantales\ negras\ der\ iz\ asc.jpg') ;
+    background-size: cover;
+    height: 500px;
+    opacity: 0.9;
+
+}
